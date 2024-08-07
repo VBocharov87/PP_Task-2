@@ -12,7 +12,7 @@ public class Main {
         // реализуйте алгоритм здесь
         UserService userService = new UserServiceImpl();
 
-//        userService.createUsersTable();
+//      2  userService.createUsersTable();
         userService.saveUser("1", "2", (byte) 3);
         userService.saveUser("2", "3", (byte) 4);
 
